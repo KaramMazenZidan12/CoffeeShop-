@@ -51,7 +51,7 @@ text-shadow:2px 2px e6a756;
 
   animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s; 
-  font-size:38px;
+  font-size:4.8vw;
 }
 .pq:hover{
 	display: inline-block;
@@ -59,7 +59,7 @@ text-shadow:2px 2px e6a756;
 
  animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
  animation-duration: 1s; 
- font-size:48px;
+  font-size:4.8vw;
 }
 .pp{
 	letter-spacing: 0.2ch;
@@ -70,12 +70,12 @@ text-shadow:2px 2px e6a756;
  letter-spacing: 0.2ch;
  animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
  animation-duration: 1s; 
- font-size:80px;
+  font-size:10vw;
 }
 .pw{
 	color:#e6a756;
 text-shadow:2px 2px black;
-font-size: 42px;
+font-size: 5vw;
 font-weight: 900;
 
 }

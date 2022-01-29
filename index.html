@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>COFFEE SHOP</title>
+ <!-- Font google -->
+ <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Sansita+Swashed&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
+  <!-- Custom styles for this template -->
+  <link href="css/karam.css" rel="stylesheet">
+  <link href="css/business-casual.min.css" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700" rel="stylesheet" type="text/css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+  <script src="karam.js"></script>
+  
+
+</head>
+
+<body>
+
+  <h1 class="site-heading text-center text-white d-none d-lg-block">
+
+    <span class="site-heading-lower"><span class="pp"><span class="w">C</span>OFFEE <span class="w">S</span>HOP</span></span>
+  </h1>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark  py-lg-4" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#"> <span class="q">C</span><span class="r">OFFEE</span>&nbsp<span class="q">S</span><span class="r">HOP</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive" >
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="index.html" style="font-size: 25px;">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="about.html" style="font-size: 24px;">About</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="products.html" style="font-size: 24px;">Products</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="store.html" style="font-size: 24px;">Store</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper" style="text-transform: capitalize;"><span class="pq">Fresh Coffee <br></span></span>
+            <span class="section-heading-lower" style="font-size: 28px;font-weight: 500;margin-top:10px;">Worth Drinking</span>
+          </h2>
+          <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+          </p>
+          <div class="intro-button mx-auto">
+            <a class="btn btn-primary btn-xl" href="#" style="color: white;font-size: 20px;text-shadow:1px 1px black;" >Visit Us Today!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner text-center rounded" style="transform: skewY(1deg);">
+            <h2 class="section-heading mb-4">
+              <p style="transform: skew(0deg,0.8deg);">
+              <span class="section-heading-upper"><span class="fw" style="line-height: 1.9ch;">Our Promise</span>
+              <span class="section-heading-lower">To You</span>
+            </h2>
+            <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="tt">
+<section>
+
+  <h1 class="title">P<span class="t">roducts</span></h1>
+
+  <div id="app" class="container">
+    <card data-image="img/products-05.png">
+      <h1 slot="header"  style="margin-top:130px;">Boil Coffee</h1>
+      <p slot="content">Delicious Strong boil Coffee <br><a class="btn btn-primary btn-xl"  style="color: white;font-size:15px;text-shadow:1px 1px black;margin-left: 20px;font-weight:900 ;" onmousedown="k()" >More Details !</a></p>
+    </card>
+    <card data-image="img/products-04.png">
+      <h1 slot="header"  style="margin-top:100px;">Milk Coffee</h1>
+      <p slot="content">Delicious Mix Milk coffee <br><a class="btn btn-primary btn-xl"  style="color: white;font-size:15px;text-shadow:1px 1px black;margin-left: 20px;font-weight:900 ;"  onmousedown="k1()">More Details !</a></p>
+    </card>
+    <card data-image="img/products-03.png">
+      <h1 slot="header"  style="margin-top:100px;">Strong Coffee</h1>
+      <p slot="content">Delicious  Strong Coffee <br><a class="btn btn-primary btn-xl" href="#" style="color: white;font-size:15px;text-shadow:1px 1px black;margin-left: 20px;font-weight:900 ;" onmousedown="k2()" >More Details !</a></p>
+    </card>
+    <card data-image="img/products-02.png">
+      <h1 slot="header"  style="margin-top:100px;">Cappuccino</h1>
+      <p slot="content">Delicious  Milk Cappuccino <br><a class="btn btn-primary btn-xl" href="#" style="color: white;font-size:15px;text-shadow:1px 1px black;margin-left: 20px;font-weight:900 ;"  onmousedown="k3()">More Details !</a></p>
+    </card>
+    <card data-image="img/products-01.jpg">
+      <h1 slot="header"  style="margin-top:100px;">Coffee & Tea</h1>
+      <p slot="content">Delicious Mix Strong Tea <br><a class="btn btn-primary btn-xl" href="#" style="color: white;font-size:15px;text-shadow:1px 1px black;margin-left: 20px;font-weight:900 ;" onmousedown="k4()">More Details !</a></p>
+    </card>
+    <card data-image="img/products-06.jpg">
+      <h1 slot="header" style="margin-top:130px;">Black Coffee</h1>
+      <p slot="content">Delicious Mix BLack Coffee <br><a class="btn btn-primary btn-xl" href="#" style="color: white;font-size:15px;text-shadow:1px 1px black;margin-left: 20px;font-weight:900 ;" onmousedown="k5()">More Details !</a></p>
+      
+    </card>
+  </div>
+</div>
+
+
+</section>
+  <footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0 small">Copyright &copy; Your Website 2020</p>
+    </div>
+  </footer>
+
+  
+
+  <script>
+    Vue.config.devtools = true;
+    
+    Vue.component('card', {
+      template: `
+        <div class="card-wrap"
+          @mousemove="handleMouseMove"
+          @mouseenter="handleMouseEnter"
+          @mouseleave="handleMouseLeave"
+          ref="card">
+          <div class="card"
+            :style="cardStyle">
+            <div class="card-bg" :style="[cardBgTransform, cardBgImage]"></div>
+            <div class="card-info">
+              <slot name="header"></slot>
+              <slot name="content"></slot>
+            </div>
+          </div>
+        </div>`,
+      mounted() {
+        this.width = this.$refs.card.offsetWidth;
+        this.height = this.$refs.card.offsetHeight;
+      },
+      props: ['dataImage'],
+      data: () => ({
+        width: 0,
+        height: 0,
+        mouseX: 0,
+        mouseY: 0,
+        mouseLeaveDelay: null
+      }),
+      computed: {
+        mousePX() {
+          return this.mouseX / this.width;
+        },
+        mousePY() {
+          return this.mouseY / this.height;
+        },
+        cardStyle() {
+          const rX = this.mousePX * 30;
+          const rY = this.mousePY * -30;
+          return {
+            transform: `rotateY(${rX}deg) rotateX(${rY}deg)`
+          };
+        },
+        cardBgTransform() {
+          const tX = this.mousePX * -40;
+          const tY = this.mousePY * -40;
+          return {
+            transform: `translateX(${tX}px) translateY(${tY}px)`
+          }
+        },
+        cardBgImage() {
+          return {
+            backgroundImage: `url(${this.dataImage})`
+          }
+        }
+      },
+      methods: {
+        handleMouseMove(e) {
+          this.mouseX = e.pageX - this.$refs.card.offsetLeft - this.width/2;
+          this.mouseY = e.pageY - this.$refs.card.offsetTop - this.height/2;
+        },
+        handleMouseEnter() {
+          clearTimeout(this.mouseLeaveDelay);
+        },
+        handleMouseLeave() {
+          this.mouseLeaveDelay = setTimeout(()=>{
+            this.mouseX = 0;
+            this.mouseY = 0;
+          }, 1000);
+        }
+      }
+    });
+    
+    const app = new Vue({
+      el: '#app'
+    });
+    
+    
+    </script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ 
+
+</body>
+
+</html>
